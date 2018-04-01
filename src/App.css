@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #757575;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 976px;
+    margin: auto;
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+  }
+  
+  /* section style */
+  
+  .content {
+    padding: 50px 32px 100px 32px;
+  }
+  
+  /* Header and Logo */
+  
+  .header {
+    background-color: #adb5bd;
+    color: white;
+    padding: 32px 32px;
+  }
+  
+  .header * {
+    display: inline-block;
+    margin-top: -8px;
+    margin-bottom: 0px;
+  }
+  
+  .logo {
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  
+  /* Input Form button style */
+  
+  .textInput {
+    height: 40px;
+    padding: 12px 20px;
+    margin: 16px 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+    outline: none;
+  }
+  
+  .buttonDefault {
+    height: 40px;
+    background-color: #f1f1f1;
+    padding: 10px 14px;
+    margin: 16px 16px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .formStyle {
+    margin-top: 25px;
+    background-color: white;
+  }
+  
+  .formStyle button {
+    float: right;
+  }
+  
+  /* Table Style */
+  
+  .tableStyle {
+    margin-top: 8px;
+    background-color: white;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr { 
+    border: 1px solid #f1f1f1;
+  }
+  
+  tr:last-child {
+    border-bottom: none;
+  }
+  
+  th {
+    height: 48px;
+    padding: 0 24px;
+    color: #757575;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  
+  td {
+    height: 72px;
+    padding: 24px;
+    color: #505050;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  
+  /* Icon style */
+  
+  .icon {
+    color: #909090;
+  }
+  
